@@ -1,3 +1,8 @@
+cd ..
+python create_desc_json.py LibriSpeech/dev-clean/ train_corpus.json
+python create_desc_json.py LibriSpeech/test-clean/ valid_corpus.json
+
+
 @@ -0,0 +1,13 @@
 Version: 1.0
 
